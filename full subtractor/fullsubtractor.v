@@ -1,38 +1,6 @@
-module fullsubtractor_test;
-
-	// Inputs
-	reg a;
-	reg b;
-	reg c;
-
-	// Outputs
-	wire d;
-	wire bo;
-
-	// Instantiate the Unit Under Test (UUT)
-	fullsubtractor uut (
-		.a(a), 
-		.b(b), 
-		.c(c), 
-		.d(d), 
-		.bo(bo)
-	);
-
-	initial begin
-		// Initialize Inputs
-		a = 0;
-		b = 0;
-		c = 0;
-
-		// Wait 100 ns for global reset to finish
-		#100 a = 0;b = 0;c=1;
-		#100 a = 0;b = 1;c=0;
-		#100 a = 0;b = 1;c=1;
-		#100 a = 1;b = 0;c=0;
-		#100 a = 1;b = 0;c=1;
-		#100 a = 1;b = 1;c=0;
-		#100 a = 1;b = 1;c=1;
-        
-		// Add stimulus here
-
-	end
+module fullsubtractor(a,b,c,d,bo);
+input a,b,c;
+output d,bo;
+assign d=a^b^c;
+assign bo=c^~(a^b)|~a&b;
+endmodule
