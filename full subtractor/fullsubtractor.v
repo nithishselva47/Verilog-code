@@ -1,3 +1,4 @@
+//nithish selva M 20l136//
 module fullsubtractor(a,b,c,d,bo);
 input a,b,c;
 output d,bo;
