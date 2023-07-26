@@ -1,3 +1,4 @@
+//nithish selva M 20l136//
 module halfsubractor(a,b,d,bo);
 input a,b;
 output d,bo;
