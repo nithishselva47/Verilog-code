@@ -36,3 +36,5 @@ module fullsubtractor_test;
 		// Add stimulus here
 
 	end
+endmodule
+
