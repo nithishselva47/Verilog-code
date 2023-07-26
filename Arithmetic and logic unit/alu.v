@@ -1,3 +1,4 @@
+//nithish selva 20l136//
 module alu(
     input [3:0] a,b,
     input [2:0] s,
