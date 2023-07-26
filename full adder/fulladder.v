@@ -1,3 +1,4 @@
+//nithish selva 20l136//
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
 output sum,carry;
