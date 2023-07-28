@@ -1,3 +1,4 @@
+//nithish selva m 20l136//
 module magnitudecomparator_test;
 
 	// Inputs
