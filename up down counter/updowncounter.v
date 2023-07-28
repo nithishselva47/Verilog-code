@@ -1,3 +1,4 @@
+//nithish selva m 20l136//
 module updowncounter(input clk, reset,up_down, output[3:0]  counter
     );
 reg [3:0] counter_up_down;
