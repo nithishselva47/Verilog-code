@@ -1,3 +1,4 @@
+//nithish selva m 20l136//
 module magnitudecomparator(
     input a,b,
     output x,y,z
