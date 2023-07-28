@@ -1,3 +1,4 @@
+//nithish selva m 20l136//
 module mg4bit(input [3:0]a,b,output reg x,y,z);
 always @ (a,b)
     begin 
